@@ -1,3 +1,35 @@
 {
- "id":"persistent-afflictions","title":"Persistent Damage & Afflictions","description":"Standalone persistent damage conditions for D&D 5e. Includes a spell catalog importer and item affliction controls.","version":"0.1.0","authors":[{"name":"Xen'drik Campaign Tools"}],"compatibility":{"minimum":"14","verified":"14"},"relationships":{"systems":[{"id":"dnd5e","type":"system","compatibility":{"minimum":"6.1.1","verified":"6.1.1"}}]},"esmodules":["scripts/main.js"],"styles":["styles/main.css"]
+  "id": "persistent-afflictions",
+  "title": "Persistent Damage & Afflictions",
+  "description": "Standalone persistent affliction tracking with native Foundry dice rolls, optional automatic HP damage, die step-down, and overflow announcements.",
+  "version": "0.1.1",
+  "authors": [
+    {
+      "name": "Xen'drik Campaign Tools"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.1.1",
+          "verified": "6.1.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/main.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/Raizario/Persistent-Damage-Afflictions/main/module.json",
+  "download": "https://github.com/Raizario/Persistent-Damage-Afflictions/releases/download/v0.1.1/persistent-afflictions-v0.1.1.zip"
 }
